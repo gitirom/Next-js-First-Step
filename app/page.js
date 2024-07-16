@@ -1,4 +1,9 @@
+// 'use client'
 import Image from "next/image";
+
+// the home page of the project
+//this is a server side rendering compo page and if you want to turn it into a client side compo just create 'use client' in the top of the file !!
+//when use those?, you can it when you need ach of client and the server.
 
 export default function Home() {
   return (
