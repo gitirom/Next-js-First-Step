@@ -3,7 +3,7 @@ import Link from "next/link"
 const Nav = () => {
     return (
         <div>
-        Nav
+            Hi I'm a navbar
         </div>
     )
 }
