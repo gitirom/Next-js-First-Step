@@ -1,5 +1,5 @@
 import '@styles/globals.css';
-import Nav from '@componnents/Nav';
+import Nav from '@componnents/Nav';    //putting the Nav here for getting see it in all the pages
 import Provider from '@componnents/Provider'
 
 export const metadata = {                        //This metadata is useful for search engines, browsers, and social media platforms to understand the content and purpose of the web page.
@@ -16,7 +16,7 @@ const RootLayout = ({children}) => {
                 </div>
 
                 <main className='app' >
-                    <Nav />
+                    <Nav />          
                     {children}
                 </main>
             </body>
